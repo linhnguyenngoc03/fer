@@ -7,11 +7,7 @@ import {
   import React, { useState } from "react"
   import AddHomeIcon from "@mui/icons-material/AddHome"
   import { setup } from "@/config/setup"
-<<<<<<< HEAD
   import Address from "../auth/Address.js"
-=======
-  import Address from "../auth/Address"
->>>>>>> 9cad10ad6ed775721e9b8684a0696816c518e383
   import { StyledButton } from "../theme/button/StyledButton"
   import FlexBox from "../theme/flexbox/FlexBox"
   
