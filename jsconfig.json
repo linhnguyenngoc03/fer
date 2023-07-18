@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+<<<<<<< HEAD
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/pages/index.js", "ssrc/pages/_app.js", "src/pages/home.js", "src/component/user-component/Navigation.tsx", "src/layout/CustomerLayout.tsx", "src/checkInScreen.js", "package/function/cart/VNPAY.tsx", "src/component/admin-component/order/orderTable.js", "src/component/admin-component/NavigationTop.js", "src/component/admin-component/NavigationLeft.js", "src/component/admin-component/AdminLayout.js", "src/component/address/AddressButton.js", "src/component/admin-component/Product/ProductUploadForm.js", "src/component/admin-component/Product/ProductTable.js", "src/component/admin-component/Product/ProductEditForm.js", "src/config/setup.js", "src/config/firebase.js", "src/feature/ReduxStore.js", "src/feature/Hooks.js", "src/feature/Alert.js", "src/styles/Theme.js", "src/pages/api/address/add-new-address.js", "src/pages/admin/order.js", "src/pages/admin/index.js", "src/pages/admin/product/index.js", "src/pages/register.js" , "src/pages/api/address/delete-address.js", "src/pages/api/address/getByUserUid.js", "src/pages/api/auth/login.js", "src/pages/api/auth/register.js", "src/pages/api/cart/add-to-cart.js", "src/pages/api/cart/delete-cart.js", "src/pages/api/cart/index.js", "src/pages/api/cart/update-cart.js", "src/pages/api/order/createOrder.js", "src/pages/api/order/getOrder.js", "src/pages/api/order/getOrderItem.js", "src/pages/api/payment/index.js", "src/pages/api/product/searchByName.js", "src/pages/api/upload/index.js", "src/pages/api/ProductApi.js", "src/pages/cart/index.js", "src/pages/order/detail/[id].js", "src/pages/category/[id].jd", "src/pages/checkout/[...slug].js", "src/pages/checkout/index.js", "src/pages/order/[...slug].js", "src/pages/product/[name].js", "src/pages/profile/[...slug].js", "src/pages/search/[value].js", "src/pages/search/index.js","src/pages/information.js", "src/pages/login.js", "src/component/auth/Address.js", "src/component/navigation/NavigationLeft.js", "src/component/navigation/Navigation1.js", "src/component/theme/button/LoadingIconButton.js", "src/component/theme/button/LoadingIconButton.js", "src/component/navigation/NavigationLeft.js", "src/component/navigation/Navigation1.js", "src/component/auth/LoginCard.js", "src/component/auth/InformationCard.js", "src/component/auth/AuthContext.js", "src/component/auth/RegisterCard.js", "src/component/order/OrderTable.js", "src/component/order/OrderTabItem.js", "src/component/order/OrderTab.js", "src/component/footer/index.js", "src/component/checkout/Payment.js", "src/component/checkout/Infor.js", "src/component/checkout/CheckoutCartTable.js", "src/component/checkout/Address.js", "src/component/cart/CartTable.js", "src/component/auth/SocialButton.js", "src/component/product/ProductSeleton.js", "src/component/product/ProductListSkeleton.js", "src/component/product/ProductList2.js", "src/component/product/ProductList1.js", "src/component/product/ProductFilter.js", "src/component/product/ProductCard.js", "src/component/order/OrderViewTable.js", "src/component/product/detail/ProductInformation.js", "src/component/product/detail/ProductDetail.js"],
+=======
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/pages/index.js", "ssrc/pages/_app.js", "src/pages/home.js", "src/component/user-component/Navigation.tsx", "src/layout/CustomerLayout.tsx", "src/checkInScreen.js", "package/function/cart/VNPAY.tsx", "src/component/admin-component/order/orderTable.js", "src/component/admin-component/NavigationTop.js", "src/component/admin-component/NavigationLeft.js", "src/component/admin-component/AdminLayout.js", "src/component/address/AddressButton.js", "src/component/admin-component/Product/ProductUploadForm.js", "src/component/admin-component/Product/ProductTable.js", "src/component/admin-component/Product/ProductEditForm.js", "src/config/setup.js", "src/config/firebase.js", "src/feature/ReduxStore.js", "src/feature/Hooks.js", "src/feature/Alert.js", "src/styles/Theme.js", "src/pages/api/address/add-new-address.js", "src/pages/admin/order.js", "src/pages/admin/index.js", "src/pages/admin/product/index.js", "src/pages/register.js" , "src/pages/api/address/delete-address.js", "src/pages/api/address/getByUserUid.js", "src/pages/api/auth/login.js", "src/pages/api/auth/register.js", "src/pages/api/cart/add-to-cart.js", "src/pages/api/cart/delete-cart.js", "src/pages/api/cart/index.js", "src/pages/api/cart/update-cart.js", "src/pages/api/order/createOrder.js", "src/pages/api/order/getOrder.js", "src/pages/api/order/getOrderItem.js", "src/pages/api/payment/index.js", "src/pages/api/product/searchByName.js", "src/pages/api/upload/index.js", "src/pages/api/ProductApi.js", "src/pages/cart/index.js", "src/pages/order/detail/[id].js", "src/pages/category/[id].jd", "src/pages/checkout/[...slug].js", "src/pages/checkout/index.js", "src/pages/order/[...slug].js", "src/pages/product/[name].js", "src/pages/profile/[...slug].js", "src/pages/search/[value].js", "src/pages/search/index.js","src/pages/information.js", "src/pages/login.js"],
+>>>>>>> 9cad10ad6ed775721e9b8684a0696816c518e383
+  "exclude": ["node_modules"]
+}
